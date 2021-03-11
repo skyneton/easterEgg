@@ -13,7 +13,7 @@ function east_start() {
         }
         switch(keyInputCheck) {
             case 0: {
-                if(e.keyCode == 17) keyInputCheck++;
+                if(e.keyCode == getCharCode('Q')) keyInputCheck++;
                 else keyInputCheck = 0;
                 break;
             }
