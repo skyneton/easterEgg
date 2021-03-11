@@ -8,6 +8,7 @@ function east_start() {
             if(e.keyCode == 27) {
                 worker.terminate();
                 canvas.remove();
+                canvas = undefined;
             }
             return;
         }
