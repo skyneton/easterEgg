@@ -8,3 +8,17 @@
     left: 0;
     right: 0;
 }
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.large {
+    font-size: 3em;
+}
+.bold {
+    font-weight: bold;
+}
